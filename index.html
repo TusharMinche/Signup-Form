@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="description" content="Signup Page to Create a new account">
+    <title>Signup Form</title>
+</head>
+<body>
+    <header></header>
+    <main class="container">
+        <h1 class="title">Signup</h1>
+        <form action="" method="post" class="form">
+            <input type="text" class="field" placeholder="Full Name" required>
+            <input type="email" class="field" placeholder="Email" required>
+            <input type="password" class="field" placeholder="Password" required>
+            <input type="text" class="field" placeholder="Confirm Password" required>
+            <input type="date" class="field" placeholder="MM/DD/YYYY" required>
+            <div class="radio-group">
+                <input type="radio" name="work" id="student" value="Student" required>
+                <label for="student">Student</label>
+                <input type="radio" name="work" id="employee" value="Employee" required>
+                <label for="employee">Employee</label>
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" id="terms" required>
+                <label for="terms">I agree to all the Terms and conditions</label>
+            </div>
+            <button class="button" type="submit">Signup</button>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
